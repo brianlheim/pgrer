@@ -20,3 +20,6 @@ my::container::iterator it = container.begin();
 3. Forgot to const& function parameters where appropriate.
 
 4. Forgot semicolon.
+
+5. Split my code prematurely into hpp and cpp functions which made it hard to understand the
+   operation of the whole TU at once.
